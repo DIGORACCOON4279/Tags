@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.panel {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+}
+
+.panel h2 {
+    margin: 0;
+}
+
+#login-panel {
+    display: none; /* Inicia oculto */
+}

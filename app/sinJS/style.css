@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.panel {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+}
+
+.panel h2 {
+    margin: 0;
+}
+
+#create-account-panel:target {
+    display: block;
+}
+
+#login-panel:target {
+    display: block;
+}
+
+/* Estilo para los enlaces */
+a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #0070f3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: #0054a6;
+}
+
